@@ -1,1 +1,50 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: darkseagreen;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.card {
+  display: inline-block;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 200px;
+  height: 340px;
+  width: 250px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 5px 10px #888888;
+}
+
+.topsuit {
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  font-size: 80px;
+}
+
+.bottomsuit {
+  position: absolute;
+  bottom: -20px;
+  right: 10px;
+  font-size: 80px;
+  transform: rotate(-180deg);
+}
+
+.number {
+  line-height: 290px;
+  font-size: 85px;
+}
+
+.button {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 100;
+  border-radius: 10px;
+  border-color: dimgrey;
+}
